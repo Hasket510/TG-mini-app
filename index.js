@@ -1,6 +1,5 @@
 import TelegramBot from 'node-telegram-bot-api'
-
-const token = '6365687589:AAHhr0RSMse_1xzVN_DieRYz7A5FV7ZmbxI'
+import { token } from './config.js'
 
 const webSocketUrl = 'https://hasket510.github.io/TG-mini-app/'
 const weatherUrl = 'https://hasket510.github.io/TG-mini-app/weather'
